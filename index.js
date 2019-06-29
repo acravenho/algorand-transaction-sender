@@ -2,7 +2,7 @@ require('dotenv').config()
 const csv = require('csv-parser')
 const fs = require('fs')
 const algorand = require('./lib/algorand')
-const creatorFee = 0.005
+const creatorFee = 0.001
 const creatorAddress = 'HGAI5DQ2D5EBVNX3RCMWWL5YRJSX3VXAVAOJORU5K2ZAHCMGWY37PFMKDU'
 const inquirer = require('inquirer')
 const readline = require('readline')
@@ -14,7 +14,7 @@ const rl = readline.createInterface({
 let balance = 0
 
 async function main() {
-  console.log('A 0.5% fee is assessed with each transaction.')
+  console.log('A 0.1% fee is assessed with each transaction.')
   inquirer
   .prompt([
     {
