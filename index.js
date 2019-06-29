@@ -101,13 +101,6 @@ async function main() {
       return
     }
   })
-  
 
-  /*
-  // loop through csv file
-  let address = 'HGAI5DQ2D5EBVNX3RCMWWL5YRJSX3VXAVAOJORU5K2ZAHCMGWY37PFMKDU'
-  let send = await algorand.sendTransaction(address)
-  console.log(send)
-  */
 }
 main()
