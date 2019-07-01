@@ -16,8 +16,7 @@ This script sends out transactions based upon the values contained in the suppli
 1. `git clone https://github.com/acravenho/algorand-transaction-sender.git`
 2. `cd algorand-transaction-sender`
 3. `npm install`
-4. Open the `.env` file and enter your node information. I am currently in the process of creating a public Algorand node and will update this file once complete.
-5. Place your CSV file in the `algorand-transaction-sender` folder. You will be asked for the name of this file during step 3 below.
+4. Place your CSV file in the `algorand-transaction-sender` folder. You will be asked for the name of this file during step 3 below.
 
 ## Start the app
 1. `node index`
