@@ -6,6 +6,11 @@ This script sends out transactions based upon the values contained in the suppli
 2. What is the name of the CSV file? (example: sample.csv)
 3. A final prompt will be provided to ensure all the information is correct.
 
+## Requirements
+
+1. NodeJS v11.2.0 and NPM v6.9.0 (`brew install node`)
+2. Git (`brew install git`)
+
 ## Installation
 
 1. `git clone https://github.com/acravenho/algorand-transaction-sender.git`
